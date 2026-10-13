@@ -1,4 +1,4 @@
-# الوالي للخدمات القانونية
+# الولي للخدمات القانونية
 
 Static Arabic (RTL) landing page. Plain HTML, CSS and JS, no build step.
 
