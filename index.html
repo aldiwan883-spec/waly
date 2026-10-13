@@ -68,7 +68,7 @@
         "knowsLanguage": "ar",
         "knowsAbout": ["القضايا المدنية", "القضايا الجنائية", "الأحوال الشخصية وقضايا الأسرة", "العقود وتأسيس الشركات", "القضايا العقارية والإيجارات"],
         "openingHoursSpecification": [
-          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday"], "opens": "20:00", "closes": "23:30" }
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "20:00", "closes": "23:30" }
         ],
         "contactPoint": { "@type": "ContactPoint", "telephone": "+201140118038", "contactType": "customer service", "availableLanguage": "ar" },
         "hasOfferCatalog": {
@@ -103,7 +103,7 @@
         "mainEntity": [
           { "@type": "Question", "name": "من هو المحامي محمود جمال الولي؟", "acceptedAnswer": { "@type": "Answer", "text": "محامٍ يعمل من مكتب الولي للخدمات القانونية في دمياط، ويتولى القضايا المدنية والجنائية والأحوال الشخصية والعقود والشركات والقضايا العقارية." } },
           { "@type": "Question", "name": "أين يقع مكتب الولي للخدمات القانونية؟", "acceptedAnswer": { "@type": "Answer", "text": "في الشعراء بجانب مدرسة سعد الأسمر، عبده سعد، قسم دمياط، محافظة دمياط. يمكنك فتح الموقع على الخريطة من قسم \"تواصل معنا\"." } },
-          { "@type": "Question", "name": "ما مواعيد العمل؟", "acceptedAnswer": { "@type": "Answer", "text": "الاستقبال مساءً من ٨:٠٠ إلى ١١:٣٠ أيام السبت والأحد والإثنين والثلاثاء والأربعاء. والمكتب مغلق يومي الخميس والجمعة." } },
+          { "@type": "Question", "name": "ما مواعيد العمل؟", "acceptedAnswer": { "@type": "Answer", "text": "الاستقبال مساءً من ٨:٠٠ إلى ١١:٣٠ كل يوم ما عدا الجمعة، والمكتب مغلق يوم الجمعة." } },
           { "@type": "Question", "name": "كيف أحجز استشارة قانونية؟", "acceptedAnswer": { "@type": "Answer", "text": "أرسل رسالة واتساب على الرقم 01140118038 تشرح فيها موقفك باختصار، أو اتصل بالمكتب في مواعيد العمل، وسنحدد معك موعد الاستشارة." } },
           { "@type": "Question", "name": "ما المجالات التي يتناولها المكتب؟", "acceptedAnswer": { "@type": "Answer", "text": "القضايا المدنية، والقضايا الجنائية، والأحوال الشخصية وقضايا الأسرة، وصياغة العقود وتأسيس الشركات، والقضايا العقارية والإيجارات." } },
           { "@type": "Question", "name": "هل ما أخبركم به يبقى سرًّا؟", "acceptedAnswer": { "@type": "Answer", "text": "نعم. السرية المهنية التزام أساسي في عمل المحامي، وكل ما تطلعنا عليه من معلومات ومستندات يبقى في إطار القضية فقط." } },
@@ -154,9 +154,8 @@
       </div>
 
       <aside class="hours-card" aria-label="مواعيد الاستقبال">
-        <span class="status" id="openStatus" data-state="unknown">مواعيد الاستقبال</span>
         <strong class="hc-time">٨:٠٠ – ١١:٣٠ مساءً</strong>
-        <p>السبت إلى الأربعاء. مغلق الخميس والجمعة.</p>
+        <p>كل يوم ما عدا الجمعة.</p>
         <a class="pill-cta pill-gold" data-wa data-msg="السلام عليكم، أرغب في حجز موعد للاستشارة.">
           <span>احجز موعدك</span>
           <span class="pill-arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M17 17 7 7M7 16V7h9"/></svg></span>
@@ -166,7 +165,7 @@
 
     <ul class="stats" aria-label="معلومات سريعة">
       <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V7l8-4 8 4v14M9 21v-6h6v6"/></svg><b>٥</b><span>مجالات عمل</span></li>
-      <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg><b>٥</b><span>أيام استقبال أسبوعيًا</span></li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg><b>٦</b><span>أيام استقبال أسبوعيًا</span></li>
       <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><b>٨ – ١١:٣٠</b><span>مساءً</span></li>
       <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-5-7-11a7 7 0 0 1 14 0c0 6-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg><b>دمياط</b><span>بجانب مدرسة سعد الأسمر</span></li>
     </ul>
@@ -270,7 +269,7 @@
         <li data-day="1"><span class="d">الإثنين</span><span class="h">٨:٠٠ – ١١:٣٠ م</span><span class="s">مفتوح</span></li>
         <li data-day="2"><span class="d">الثلاثاء</span><span class="h">٨:٠٠ – ١١:٣٠ م</span><span class="s">مفتوح</span></li>
         <li data-day="3"><span class="d">الأربعاء</span><span class="h">٨:٠٠ – ١١:٣٠ م</span><span class="s">مفتوح</span></li>
-        <li data-day="4" class="off"><span class="d">الخميس</span><span class="h">مغلق</span><span class="s">إجازة</span></li>
+        <li data-day="4"><span class="d">الخميس</span><span class="h">٨:٠٠ – ١١:٣٠ م</span><span class="s">مفتوح</span></li>
         <li data-day="5" class="off"><span class="d">الجمعة</span><span class="h">مغلق</span><span class="s">إجازة</span></li>
       </ul>
     </div>
@@ -316,7 +315,7 @@
         </details>
         <details>
           <summary>ما مواعيد العمل؟</summary>
-          <p>الاستقبال مساءً من ٨:٠٠ إلى ١١:٣٠ أيام السبت والأحد والإثنين والثلاثاء والأربعاء. والمكتب مغلق يومي الخميس والجمعة.</p>
+          <p>الاستقبال مساءً من ٨:٠٠ إلى ١١:٣٠ كل يوم ما عدا الجمعة، والمكتب مغلق يوم الجمعة.</p>
         </details>
         <details>
           <summary>كيف أحجز استشارة قانونية؟</summary>
@@ -377,7 +376,7 @@
           <ul class="info-list">
             <li><span class="info-label">العنوان</span><span>الشعراء بجانب مدرسة سعد الأسمر، عبده سعد، قسم دمياط، محافظة دمياط ٣٤٥١١<br><small>كود الموقع: CQ3V+3Q</small></span></li>
             <li><span class="info-label">الهاتف وواتساب</span><a href="tel:+201140118038" dir="ltr">011 4011 8038</a></li>
-            <li><span class="info-label">المواعيد</span><span>من ٨:٠٠ إلى ١١:٣٠ مساءً، السبت إلى الأربعاء</span></li>
+            <li><span class="info-label">المواعيد</span><span>من ٨:٠٠ إلى ١١:٣٠ مساءً، كل يوم ما عدا الجمعة</span></li>
           </ul>
           <div class="map">
             <iframe title="موقع المكتب على الخريطة" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
@@ -410,7 +409,7 @@
       <address class="foot-contact">
         <b>تواصل</b>
         <a href="tel:+201140118038" dir="ltr">011 4011 8038</a>
-        <span>السبت – الأربعاء، ٨:٠٠ – ١١:٣٠ م</span>
+        <span>كل يوم ما عدا الجمعة، ٨:٠٠ – ١١:٣٠ م</span>
       </address>
     </div>
     <p class="disclaimer">المحتوى المعروض في هذه الصفحة لأغراض التعريف والمعلومات العامة فقط، ولا يُعد استشارة قانونية ولا يُنشئ علاقة وكالة بين المحامي والزائر. لا نضمن نتائج معينة للقضايا.</p>
