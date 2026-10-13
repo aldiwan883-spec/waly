@@ -14,7 +14,7 @@
   --muted: #9fb0b5;
   --muted-dark: #566a70;
   --font: "Cairo", "Tajawal", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --display: "Alexandria", "Cairo", system-ui, sans-serif;
+  --display: "Noto Kufi Arabic", "Cairo", system-ui, sans-serif;
   --radius: 28px;
 }
 
@@ -94,6 +94,9 @@ em { font-style: normal; color: var(--gold); }
   background: rgba(255, 255, 255, .07); border: 1px solid var(--line); font-size: .82rem; font-weight: 700; color: var(--text);
 }
 .badge svg { width: 16px; height: 16px; color: var(--gold); }
+.lawyer-name { display: grid; gap: 0; margin: 0 0 14px; line-height: 1.6; }
+.lawyer-name b { font: 700 1.2rem/1.5 var(--display); color: var(--gold); }
+.lawyer-name span { font-size: .85rem; color: var(--muted); }
 .hero h1 { font-size: clamp(2.2rem, 9vw, 3.4rem); font-weight: 800; line-height: 1.35; margin-bottom: .4em; color: var(--white); }
 .lead { color: var(--muted); max-width: 30em; }
 .hero-portrait { position: relative; min-height: 0; display: flex; justify-content: center; align-items: flex-end; }
