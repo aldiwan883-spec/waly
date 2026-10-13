@@ -58,16 +58,6 @@
     else photo.addEventListener('load', show);
   }
 
-  // Services carousel arrows (the page is RTL, so "next" scrolls toward negative X).
-  var track = document.getElementById('svcTrack');
-  var next = document.getElementById('svcNext');
-  var prev = document.getElementById('svcPrev');
-  if (track && next && prev) {
-    var step = function () { var c = track.querySelector('.svc-card'); return c ? c.getBoundingClientRect().width + 18 : 300; };
-    next.addEventListener('click', function () { track.scrollBy({ left: -step(), behavior: 'smooth' }); });
-    prev.addEventListener('click', function () { track.scrollBy({ left: step(), behavior: 'smooth' }); });
-  }
-
   // Opening hours: highlight today's row (Cairo time). The office is closed on Friday only.
   function cairoDay() {
     try {
