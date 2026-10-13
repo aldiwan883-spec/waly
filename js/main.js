@@ -5,11 +5,7 @@
   var CONFIG = {
     whatsapp: '201140118038', // international format, no "+"
     defaultMessage: 'السلام عليكم، أرغب في الاستفسار عن خدمات المكتب.',
-    timezone: 'Africa/Cairo',
-    // JS weekday numbers (Sun = 0). Thursday and Friday are closed.
-    openDays: [6, 0, 1, 2, 3],
-    opens: 20 * 60,       // 8:00 PM
-    closes: 23 * 60 + 30  // 11:30 PM
+    timezone: 'Africa/Cairo'
   };
 
   function waUrl(text) {
@@ -72,34 +68,20 @@
     prev.addEventListener('click', function () { track.scrollBy({ left: step(), behavior: 'smooth' }); });
   }
 
-  // Opening hours: highlight today and show whether the office is open now (Cairo time).
-  function cairoNow() {
+  // Opening hours: highlight today's row (Cairo time). The office is closed on Friday only.
+  function cairoDay() {
     try {
-      var parts = new Intl.DateTimeFormat('en-US', {
-        timeZone: CONFIG.timezone, weekday: 'short', hour: 'numeric', minute: 'numeric', hour12: false
-      }).formatToParts(new Date());
-      var map = {};
-      parts.forEach(function (p) { map[p.type] = p.value; });
-      var days = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
-      var h = parseInt(map.hour, 10) % 24;
-      return { day: days[map.weekday], minutes: h * 60 + parseInt(map.minute, 10) };
+      var w = new Intl.DateTimeFormat('en-US', { timeZone: CONFIG.timezone, weekday: 'short' }).format(new Date());
+      return { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 }[w];
     } catch (err) {
-      var d = new Date();
-      return { day: d.getDay(), minutes: d.getHours() * 60 + d.getMinutes() };
+      return new Date().getDay();
     }
   }
-  var now = cairoNow();
-  var openNow = CONFIG.openDays.indexOf(now.day) !== -1 && now.minutes >= CONFIG.opens && now.minutes < CONFIG.closes;
-  var today = document.querySelector('#hoursList [data-day="' + now.day + '"]');
+  var today = document.querySelector('#hoursList [data-day="' + cairoDay() + '"]');
   if (today) {
     today.classList.add('today');
     var s = today.querySelector('.s');
-    if (s && !today.classList.contains('off')) s.textContent = openNow ? 'مفتوح الآن' : 'اليوم';
-  }
-  var status = document.getElementById('openStatus');
-  if (status) {
-    status.textContent = openNow ? 'مفتوح الآن' : 'مغلق الآن';
-    status.setAttribute('data-state', openNow ? 'open' : 'closed');
+    if (s && !today.classList.contains('off')) s.textContent = 'اليوم';
   }
 
   var year = document.getElementById('year');
