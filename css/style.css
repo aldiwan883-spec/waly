@@ -137,7 +137,12 @@ h2 { font-size: clamp(1.9rem, 6.5vw, 3.2rem); font-weight: 800; }
 
 /* Services */
 .carousel-nav { display: none; gap: 10px; }
-.svc-track { display: flex; gap: 18px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 0 0 8px; scrollbar-width: none; }
+.round-btn:disabled { opacity: .35; cursor: default; pointer-events: none; }
+.svc-wrap { --edge: max(16px, calc((100% - 1108px) / 2)); }
+.svc-track {
+  display: flex; gap: 18px; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none;
+  padding: 0 var(--edge) 8px; scroll-padding-inline: var(--edge);
+}
 .svc-track::-webkit-scrollbar { display: none; }
 .svc-card {
   position: relative; flex: 0 0 min(300px, 82%); scroll-snap-align: start; display: flex; flex-direction: column; gap: 6px;
@@ -267,7 +272,7 @@ h2 { font-size: clamp(1.9rem, 6.5vw, 3.2rem); font-weight: 800; }
   .panel { margin: 16px; padding: 88px 0; }
   .about { grid-template-columns: 1fr 1.1fr; gap: 64px; align-items: start; }
   .carousel-nav { display: flex; }
-  .svc-card { flex-basis: 300px; }
+  .svc-card { flex-basis: 264px; }
   .hours { grid-template-columns: .9fr 1.1fr; gap: 64px; align-items: start; }
   .steps { grid-template-columns: repeat(4, 1fr); }
   .steps li:nth-child(even) { margin-top: 44px; }
