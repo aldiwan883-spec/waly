@@ -2,9 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://elwali.aldiwan.io/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/"/>
+  </url>
+  <url>
+    <loc>https://elwali.aldiwan.io/about/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/about/"/>
+  </url>
+  <url>
+    <loc>https://elwali.aldiwan.io/services/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/services/"/>
+  </url>
+  <url>
+    <loc>https://elwali.aldiwan.io/contact/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/contact/"/>
+  </url>
+  <url>
+    <loc>https://elwali.aldiwan.io/services/property-contract-review/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/services/property-contract-review/"/>
+  </url>
+  <url>
+    <loc>https://elwali.aldiwan.io/services/contract-drafting/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/services/contract-drafting/"/>
+  </url>
+  <url>
+    <loc>https://elwali.aldiwan.io/services/company-formation/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/services/company-formation/"/>
+  </url>
+  <url>
+    <loc>https://elwali.aldiwan.io/services/trademarks/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/services/trademarks/"/>
+  </url>
+  <url>
+    <loc>https://elwali.aldiwan.io/services/licenses/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/services/licenses/"/>
+  </url>
+  <url>
+    <loc>https://elwali.aldiwan.io/services/intellectual-property/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/services/intellectual-property/"/>
+  </url>
+  <url>
+    <loc>https://elwali.aldiwan.io/services/criminal/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/services/criminal/"/>
+  </url>
+  <url>
+    <loc>https://elwali.aldiwan.io/services/personal-status/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/services/personal-status/"/>
+  </url>
+  <url>
+    <loc>https://elwali.aldiwan.io/services/administrative/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/services/administrative/"/>
+  </url>
+  <url>
+    <loc>https://elwali.aldiwan.io/services/civil-compensation/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/services/civil-compensation/"/>
+  </url>
+  <url>
+    <loc>https://elwali.aldiwan.io/services/labor/</loc>
+    <lastmod>2026-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://elwali.aldiwan.io/services/labor/"/>
   </url>
 </urlset>

@@ -1,10 +1,10 @@
 # الولي للخدمات القانونية
 
-> مكتب المحامي محمود جمال الولي، محاماة وخدمات قانونية في دمياط (مصر). يتولى القضايا المدنية والجنائية والأحوال الشخصية وقضايا الأسرة وصياغة العقود وتأسيس الشركات والقضايا العقارية والإيجارات. الاستقبال مساءً من ٨:٠٠ إلى ١١:٣٠ كل يوم ما عدا الجمعة، والمكتب مغلق يوم الجمعة.
+> مكتب الأستاذ محمود جمال الولي المحامي في دمياط (مصر). يتولى مراجعة عقود الملكية قبل شراء العقار، وصياغة ومراجعة العقود، وتأسيس الشركات، وتسجيل العلامات التجارية، واستخراج التراخيص، والملكية الفكرية، والقضايا الجنائية والأحوال الشخصية والمواريث، والطعن على القرارات الإدارية، والتعويضات المدنية، والمسائل العمالية. الاستقبال مساءً من ٨:٠٠ إلى ١١:٣٠ كل يوم ما عدا الجمعة.
 
 ## بيانات المكتب
 - الاسم: الولي للخدمات القانونية (Elwali for legal services)
-- المحامي: محمود جمال الولي (Mahmoud Gamal Elwali)
+- المحامي: الأستاذ محمود جمال الولي المحامي (Mahmoud Gamal Elwali)
 - المدينة: دمياط، مصر
 - العنوان: الشعراء بجانب مدرسة سعد الأسمر، عبده سعد، قسم دمياط، محافظة دمياط ٣٤٥١١
 - الهاتف وواتساب: +20 114 011 8038 (01140118038)
@@ -12,18 +12,27 @@
 - مواعيد العمل: كل يوم ما عدا الجمعة، من ٨:٠٠ مساءً إلى ١١:٣٠ مساءً
 - اللغة: العربية
 
-## مجالات العمل
-- القضايا المدنية
-- القضايا الجنائية
-- الأحوال الشخصية وقضايا الأسرة
-- صياغة العقود وتأسيس الشركات
-- القضايا العقارية والإيجارات
+## الصفحات
+- [الرئيسية](https://elwali.aldiwan.io/): التعريف بالمكتب وأهم الخدمات
+- [من نحن](https://elwali.aldiwan.io/about/): لماذا نحن وكيف نعمل
+- [خدماتنا](https://elwali.aldiwan.io/services/): كل الخدمات القانونية
+- [تواصل معنا](https://elwali.aldiwan.io/contact/): العنوان والمواعيد والأسئلة الشائعة
 
-## صفحات
-- [الصفحة الرئيسية](https://elwali.aldiwan.io/): التعريف بالمكتب ومجالات العمل والمواعيد والأسئلة الشائعة وطرق التواصل
+## الخدمات
+- [مراجعة عقود الملكية قبل الشراء](https://elwali.aldiwan.io/services/property-contract-review/): افحص ملكية الشقة أو الأرض قبل أن تدفع: مراجعة العقد والمستندات وتتبع الملكية والتأكد من خلو العقار من الحجوزات والنزاعات. الولي للخدمات القانونية في دمياط.
+- [صياغة العقود التجارية](https://elwali.aldiwan.io/services/contract-drafting/): أهم ٥ بنود يجب أن تتوافر في العقود التجارية لتفادي النزاعات، وخدمة صياغة العقود ومراجعتها قبل التوقيع. الولي للخدمات القانونية، دمياط.
+- [تأسيس الشركات](https://elwali.aldiwan.io/services/company-formation/): دليل اختيار الشكل القانوني لمشروعك: شركة الشخص الواحد أم الشركة ذات المسؤولية المحدودة؟ وخطوات التأسيس. الولي للخدمات القانونية، دمياط.
+- [تسجيل العلامات التجارية](https://elwali.aldiwan.io/services/trademarks/): خطوات تسجيل العلامة التجارية في مصر وحماية اسم مشروعك وشعاره من التقليد. الولي للخدمات القانونية في دمياط.
+- [رخص المصانع والمحلات](https://elwali.aldiwan.io/services/licenses/): خطوات استخراج رخصة تشغيل المحال العامة والمصانع وفق القانون الجديد والمستندات المطلوبة. الولي للخدمات القانونية في دمياط.
+- [الملكية الفكرية](https://elwali.aldiwan.io/services/intellectual-property/): كيف تحمي حقوق المؤلف والحقوق الفكرية لتطبيقك أو منتجك: إيداع المصنف وعقود المطورين واتفاقيات السرية. الولي للخدمات القانونية في دمياط.
+- [الجنح والجنايات](https://elwali.aldiwan.io/services/criminal/): ما الفرق بين الجنحة والجناية؟ وماذا تفعل عند استدعائك أو القبض عليك؟ حقوقك في التحقيق وخطواته. الولي للخدمات القانونية في دمياط.
+- [الأحوال الشخصية والمواريث](https://elwali.aldiwan.io/services/personal-status/): إجراءات حصر الورثة وتقسيم التركة ودعاوى الإرث، وطرق حل النزاعات الأسرية. الولي للخدمات القانونية في دمياط.
+- [الطعن على القرارات الإدارية](https://elwali.aldiwan.io/services/administrative/): كيف تطعن على قرار إداري أمام مجلس الدولة؟ المواعيد والإجراءات وأسباب الإلغاء. الولي للخدمات القانونية في دمياط.
+- [التعويضات المدنية](https://elwali.aldiwan.io/services/civil-compensation/): شروط استحقاق التعويض المدني وأنواعه، وكيف تثبت حقك وترفع الدعوى. الولي للخدمات القانونية في دمياط.
+- [العمالة وشؤون الشركات](https://elwali.aldiwan.io/services/labor/): كيف تصوغ لائحة العمل الداخلية وعقود العمل وتحمي شركتك من النزاعات العمالية، وحقوق العامل. الولي للخدمات القانونية في دمياط.
 
 ## ملاحظة
 المحتوى للتعريف والمعلومات العامة وليس استشارة قانونية.
 
 # English summary
-Elwali for legal services, the office of lawyer Mahmoud Gamal Elwali, is a law office in Damietta, Egypt, handling civil and criminal cases, family and personal-status cases, contract drafting and company formation, and real-estate and tenancy disputes. Hours: every day except Friday, 8:00-11:30 PM; closed on Friday. Address: next to Saad El-Asmar School, El-Shuaraa, Abdo Saad, Damietta. Phone and WhatsApp: +20 114 011 8038. Website: https://elwali.aldiwan.io/
+الولي للخدمات القانونية (Elwali for legal services) is a law office in Damietta, Egypt, run by lawyer Mahmoud Gamal Elwali. Main services: pre-purchase review of property ownership documents and contracts, contract drafting and review, company formation, trademark registration, shop and factory licensing, intellectual property, criminal defence, personal status and inheritance, administrative-court challenges, civil compensation, and labour matters. Hours: every day except Friday, 8:00-11:30 PM. Address: next to Saad El-Asmar School, El-Shuaraa, Abdo Saad, Damietta. Phone and WhatsApp: +20 114 011 8038. Website: https://elwali.aldiwan.io/
